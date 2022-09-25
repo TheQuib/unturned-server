@@ -3,8 +3,8 @@ version: '3.8'
 services:
   unturned-server:
     # Uncomment if building the image locally:
-    #build: .
-    image: unturned-server:latest
+    build: .
+    #image: unturned-server:latest
     # Uncomment if using the prebuilt image from GitHub:
     #image: ghcr.io/TheQuib/unturned-server
     container_name: unturned-server
