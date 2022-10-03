@@ -2,14 +2,12 @@ version: '3.8'
 
 services:
   unturned-server:
-    # Uncomment if building the image locally:
-    build: .
+    # Uncomment next two lines if building the image locally:
+    #build: .
     #image: unturned-server:latest
-    # Uncomment if using the prebuilt image from GitHub:
-    #image: ghcr.io/TheQuib/unturned-server
+    # Uncomment next line if using the prebuilt image from GitHub:
+    image: ghcr.io/TheQuib/unturned-server
     container_name: unturned-server
-    volumes:
-      - ./server-files:/home/steam/Steam/steamapps/common/U3DS
     networks:
       - unturned
 
