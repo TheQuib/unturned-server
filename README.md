@@ -1,2 +1,3 @@
-# unturned-server
-Unturned server docker image with example compose file
+# 🧟 Unturned Server Docker Container
+
+Docker container for hosting an Unturned server
